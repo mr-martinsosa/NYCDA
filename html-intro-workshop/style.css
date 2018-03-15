@@ -1,0 +1,63 @@
+body{
+	background: #BEDCDF;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+p.text{
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+ul.text{
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+li.text{
+	font-family: sans-serif;
+}
+
+img.selfie{
+	border-radius: 60%;
+	/* copied text align from: https://stackoverflow.com/questions/7055393/center-image-using-text-align-center */
+	display: block;
+    margin: 0 auto;
+}
+
+img.gif-center{
+	display: block;
+	margin: 0 auto;
+}
+hr.hr-style{ /*copied from https://codepen.io/ibrahimjabbari/pen/ozinB */
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+/* The following was carefully stolen from my own github page: https://github.com/mr-martinsosa/WDF-HTML-CSS/blob/master/main.css*/
+ul.nav { /* get rid of bullet points in the list style */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4267b2;
+}
+
+li.nav{ /* display it horizontally */
+    display: inline;
+    float: left;
+}
+
+li a { /* create a block like menu for nav bar */
+    display: block;
+    color: white;
+    padding: 10px 14px;
+    text-decoration: none; /* remove the underline */
+}
+
+li a.change-color:hover{ /* change color on hover also I changed this from my github like right now */
+    background-color: #365899;
+    color: white;
+}
