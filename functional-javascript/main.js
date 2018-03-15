@@ -52,5 +52,5 @@ ask(questions, answers)
 /* Bonus 2*/
 function factorial(num){
 	if(num === 1) { return 1 }
-	return num * factorial(n-1)
+	return num * factorial(num-1)
 }
