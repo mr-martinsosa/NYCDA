@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 	let submitButton = document.getElementById("submit-button")
 	submitButton.addEventListener("click", (event) => {
+		event.preventDefault()
 		let updateHeader = document.querySelector("h1") //grab h1 tag
-		let passwordCheck = document.querySelector("password-input").value //breaks here claiming null
-		//console.log(document.querySelector("password"))
-		let usernameCheck = document.querySelector("username-input").value
+		let passwordCheck = document.querySelector("#password-input").value
+		let usernameCheck = document.querySelector("#username-input").value
 		let hasNumber = /\d/ //regex to check for number in string
 		
 		if(passwordCheck == 12345678 && usernameCheck.match(hasNumber).length > 0){ 
