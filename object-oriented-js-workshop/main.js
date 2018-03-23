@@ -32,10 +32,10 @@ class Gallery{
 	}
 
 	renderAll(){
+		let body = document.querySelector("body") //target body
 		for(let i = 0; i < this.imageList.length; i++){
 			let drawFrame = document.createElement("img") //create image tag
 			drawFrame.src = this.imageList[i].art_url // set img src to url
-			let body = document.querySelector("body") //target body
 			body.appendChild(drawFrame) //add img tag to body
 			drawFrame.setAttribute("class", `${this.imageList[i].frame}`) // add class to img
 		}
