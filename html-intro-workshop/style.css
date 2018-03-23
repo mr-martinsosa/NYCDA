@@ -57,7 +57,12 @@ li a { /* create a block like menu for nav bar */
     text-decoration: none; /* remove the underline */
 }
 
-li a.change-color:hover{ /* change color on hover also I changed this from my github like right now */
+li a.change-color:hover{ /* change color on hover */
     background-color: #365899;
     color: white;
+}
+
+.img-size{
+	width: 100px;
+	height: 10px;
 }
