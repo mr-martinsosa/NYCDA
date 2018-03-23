@@ -1,0 +1,11 @@
+.black-border{
+	height: 500px;
+	width: 500px;
+	border: solid 2px black;
+}
+
+.red-border{
+	height: 500px;
+	width: 500px;
+	border: solid 2px red;	
+}
