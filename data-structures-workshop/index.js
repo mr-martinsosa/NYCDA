@@ -18,3 +18,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
 		drawFrame.src = listOfUrls[Math.floor(Math.random() * Math.floor(listOfUrls.length) )] //set src to random image decided by length of array
 	})
 })
+
+/* bonus */
+/* Pop out image used, loop until array is empty then restore array for no repeats*/
