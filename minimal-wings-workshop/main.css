@@ -1,0 +1,18 @@
+body{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Arimo', sans-serif;
+	text-align: center;
+}
+
+img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 200px;
+	height: 200px;
+}
+
+ul{
+	list-style-type: none;
+}
