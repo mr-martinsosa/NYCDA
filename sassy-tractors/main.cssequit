@@ -1,0 +1,17 @@
+#hero {
+  background-image: url("https://www.deere.com/assets/images/region-4/products/tractors/tractor-group/row-crop-tractor-group-r4b009242-1366.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+#hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; }
+
+/*# sourceMappingURL=main.cssequit.map */
