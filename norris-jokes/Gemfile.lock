@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    chuck_norris (0.1.0)
+    colorize (0.8.1)
+    httparty (0.16.2)
+      multi_xml (>= 0.5.2)
+    multi_xml (0.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  chuck_norris!
+  colorize!
+  httparty!
+
+BUNDLED WITH
+   1.16.1
