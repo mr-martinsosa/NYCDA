@@ -1,15 +1,27 @@
 #1. What would you rename this function to? Why? How would you improve this code?
-def no_name(x)
-  l = x.length - 1 #the problem was that l wasnt set to length -1
+# def no_name(x)
+#     l = x.length
+  
+#     for i in 0..l
+#       x[i] = (x[i] * 1) * x[i]
+#     end
+  
+#     x
+#   end
+  
+#   no_name([-3, -12, 2]) # [9, 144, 4]
+  
 
-  for i in 0..l
-    x[i] = (x[i] * 1) * x[i]
+def square_numbers(array) #the function is squaring each number in an array
+  length = x.length - 1 #the problem was that l wasnt set to length -1
+
+  for i in 0..length
+    array[i] *= array[i]
   end
-
-  x
+  array
 end
 
-puts no_name([-3, -12, 2]) # [9, 144, 4]
+puts square_numbers([-3, -12, 2]) # [9, 144, 4]
 
 # 2. What is the difference between a function and a class?
 # A function contains an organized set of code to be executed versus a class
