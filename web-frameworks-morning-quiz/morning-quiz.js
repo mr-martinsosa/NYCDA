@@ -24,8 +24,8 @@ class BadJoke extends Joke {
     }
 }
 
-bad_joke = BadJoke.new("knock knock", "knock, knock...")
-good_joke = GoodJoke.new("question", "what are those!?")
+bad_joke = new BadJoke("knock knock", "knock, knock...")
+good_joke = new GoodJoke("question", "what are those!?")
 
 console.log(good_joke.tell)
 console.log(bad_joke.tell)
