@@ -1,6 +1,5 @@
 //3. Translate this Ruby code into Javascript:
 class Joke {
-
     constructor(name, content) {
         this.name = name
         this.content = content
@@ -11,17 +10,17 @@ class Joke {
     }
 }
 
-class GoodJoke < Joke {
+class GoodJoke extends Joke {
     initialize(name, content) {
-        this.funny = true
         super(name, content)
+        this.funny = true
     }
 }
 
-class BadJoke < Joke {
+class BadJoke extends Joke {
     initialize(name, content) {
-        this.funny = false
         super(name, content)
+        this.funny = false
     }
 }
 
