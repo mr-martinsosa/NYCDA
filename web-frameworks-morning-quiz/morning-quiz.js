@@ -52,6 +52,7 @@ namePlusTen()
 
 //Yes, it outputs the string "orlando" with the number 10 after it. It works because its concatinating
 //both as a string and combining them.
+//but at the same time, no, because the string is not being passed into the function
 
 //9b. What code would I write to allow someone to swap a value from one 
 //location on the list to another location on the list?
