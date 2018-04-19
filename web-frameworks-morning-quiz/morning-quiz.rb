@@ -51,7 +51,7 @@ puts no_name([-3, -12, 2]) # [9, 144, 4]
 # end
 
 # bad_joke = BadJoke.new("knock knock", "knock, knock...")
-# good_joke = BadJoke.new("question", "what are those!?")
+# good_joke = GoodJoke.new("question", "what are those!?")
 
 # puts good_joke.tell
 # puts bad_joke.tell
