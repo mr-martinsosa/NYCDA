@@ -84,7 +84,8 @@ puts square_numbers([-3, -12, 2]) # [9, 144, 4]
 # Classes provide an more organized approach when dealing with groups of similar data whereas
 # functions mainly just execute data in an organized way
 # For number 7, I ran the code in case I didn't remember how Javascript executes addition or 
-# concatination and observed the output.
+# concatination and observed the output. I noticed it didn't call the string but rather hoisted
+# it up to the function. This is not a good idea.
 
 #9. Given the following list of comments:
 
