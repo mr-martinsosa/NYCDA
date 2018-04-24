@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="input-field col s6">  
+    <form action="/" method="POST">
+      <i class = "material-icons prefix"> bookmark_border </i>
+        <input id = "search-bar" name="query" placeholder="Search a book!"/>
+          <button class="waves-effect waves-light btn"><i class="material-icons left">grade</i>Search</button>
+            </form>
+            <% unless @books == nil %>
+              <p> <%= @books.title %> </p>
+              <p> <%= @books.authors %> </p>
+              <img src = <%= @books.image_link %> >
+              <p> <%= @books.description %> </p>
+              <a href = <%= @books.preview_link %>> Get the book here!</a>
+            <% end %>
+          </div>
+        </div>
+      </div>
+
+
+
