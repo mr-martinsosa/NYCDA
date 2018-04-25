@@ -7,6 +7,4 @@ get "/" do
 end
 
 post "/" do
-    @books = GoogleBooks.search(params[:query]).first
-    erb :index
 end
