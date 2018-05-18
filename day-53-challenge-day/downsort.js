@@ -62,6 +62,21 @@ function unpack(array){
   return unpacked
 }
 
+
+// other answer
+// function unpack(array){
+//   return {
+//     strings: () => {
+//       return array.filter(element => typeof element === "string")
+//     },
+//     integers: () => {
+//       return array.filter(element => typeof element === "number")
+//     }
+//   }
+// }
+// console.log(literal.strings()) // ["hello", "world", "cat", "dog"]
+// console.log(literal.integers()) // [1, 4]
+
 array = [2, 3, 14, 3, 9, 22]
 console.log(downsortEvenly(array, 3)) // [22, 14, 2]
 console.log(downsortEvenly(array, 10)) // [22, 14, 2]

@@ -40,12 +40,16 @@ class Playlist
     def next_track
         if(@current_track_index < @tracks.length) 
             @current_track_index += 1
+        else
+            @current_track_index = 1
         end
     end
 
     def previous_track
         if(@current_track_index  > 1)
             @current_track_index -= 1
+        else
+            @current_track_index = @tracks.length - 1
         end
     end
 
